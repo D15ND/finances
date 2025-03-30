@@ -27,6 +27,7 @@ header {
   justify-content: space-between;
   width: 502px;
   list-style: none;
+  margin-left: 80px;
 }
 
 .navigation__item {
