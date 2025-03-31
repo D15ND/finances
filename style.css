@@ -54,6 +54,11 @@ header {
   border-radius: 25px;
   font-size: 18px;
   font-weight: 700;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: gold;
 }
 
 .login__btn {
@@ -104,6 +109,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 175px;
+  margin-bottom: 235px;
 }
 
 .entrepreneurs__img {
@@ -129,4 +135,49 @@ header {
   padding-top: 15px;
   line-height: 29px;
   width: 500px;
+}
+
+.switch__subtitle {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.switch__powerfull {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 115px;
+  margin-bottom: 70px;
+}
+
+.powerfull__card {
+  width: 308px;
+}
+
+.powerfull__card-img {
+  width: 200px;
+  padding-bottom: 22px;
+}
+
+.powerfull__subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.powerfull__description {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 12px;
+  line-height: 24px;
+}
+
+.switch-btn {
+  width: 235px;
+  height: 50px;
+  background-color: #F7B2B7;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 126px;
 }
