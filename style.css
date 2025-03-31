@@ -14,12 +14,14 @@ header {
   margin-top: 27px;
 }
 
-.header__logo {
-  padding-top: 5px;
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
 }
 
-.header__navigation {
-
+.header__logo {
+  padding-top: 5px;
 }
 
 .navigation__list {
@@ -62,7 +64,38 @@ header {
   border: ridge black;
 }
 
-.header .wrapper {
+.accounting .wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.accounting__welcom {
+  width: 483px;
+  margin-top: 50px;
+}
+
+.accounting__welcom .btn {
+  width: 160px;
+  height: 60px;
+  font-size: 22px;
+}
+
+.accounting__title {
+  font-size: 77px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.accounting__description {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 5px;
+  line-height: 30px;
+}
+
+.accounting__entice {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
