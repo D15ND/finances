@@ -99,3 +99,34 @@ header {
   padding-top: 60px;
   padding-bottom: 10px;
 }
+
+.entrepreneurs .wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 175px;
+}
+
+.entrepreneurs__img {
+  width: 483px;
+  height: 280px;
+  padding-top: 35px;
+}
+
+.entrepreneurs__welcom {
+  width: 560px;
+}
+
+.entrepreurers__title {
+  font-size: 57px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 60px;
+}
+
+.entrepreurers__description {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 15px;
+  line-height: 29px;
+  width: 500px;
+}
