@@ -181,3 +181,45 @@ header {
   font-weight: 700;
   margin-bottom: 126px;
 }
+
+.plans {
+  background-color: #FDECED;
+}
+
+.plans__title {
+  font-size: 58px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 83px;
+  padding-bottom: 77px;
+}
+
+.plans__growth {
+  width: 1035px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 87px;
+}
+
+.plans__card {
+  width: 308px;
+}
+
+.plans__img {
+  width: 309px;
+  margin-bottom: 22px;
+}
+
+.plans__subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.plans__description {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 24px;
+}
