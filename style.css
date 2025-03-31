@@ -223,3 +223,89 @@ header {
   margin: 0;
   line-height: 24px;
 }
+
+.hub__companys {
+  width: 1035px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 108px;
+  margin-bottom: 160px;
+}
+
+.companys__description {
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.companys__img {
+  width: 700px;
+}
+
+.hub__explore {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 187px;
+}
+
+.explore__info {
+  width: 564px;
+}
+
+.hub .btn {
+  width: 140px;
+  height: 50px;
+  background-color: #F7B2B7;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.explore__title {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+
+.explore__description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 80px;
+}
+
+.hub__img {
+  width: 483px;
+}
+
+.ready {
+  height: 283px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #8BD4D6;
+  border-radius: 10px;
+  margin-bottom: 108px;
+}
+
+.ready__info {
+  width: 810px;
+  margin-left: 90px;
+}
+
+.ready__title {
+  font-size: 46px;
+  font-weight: 700;
+  margin-top: 90px;
+  margin-bottom: 23px;
+}
+
+.ready__description {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ready .btn {
+  width: 159px;
+  height: 50px;
+  margin-top: 117px;
+  margin-right: 91px;
+}
