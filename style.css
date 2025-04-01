@@ -309,3 +309,82 @@ header {
   margin-top: 117px;
   margin-right: 91px;
 }
+
+footer {
+  background-color: #302E3F;
+}
+
+.footer__finance {
+  display: flex;
+  justify-content: space-between;
+  width: 353px;
+  padding-bottom: 5px;
+  padding-top: 17px;
+}
+
+.footer__logo-title {
+  font-size: 28px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.navigation__list-footer {
+  width: 204px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding: 0;
+}
+
+/* .navigation__list-footer:last-child {
+  padding-right: 120px;
+} */
+
+.navigation__item-footer {
+  list-style: none;
+  line-height: 25px;
+}
+
+/* .navigation__item-footer:first-child {
+  padding-right: 1px;
+} */
+
+.nav__link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #C5E9EA;
+}
+
+.footer__navigation-downer {
+  display: flex;
+  justify-content: start;
+}
+
+.web__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.web__info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.web__info-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #C5E9EA;
+}
+
+.footer__underlogo {
+  display: flex;
+  justify-content: end;
+}
